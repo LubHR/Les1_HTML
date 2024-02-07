@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Block1</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+        body{
+            margin: 0;
+        }
+        header{
+            height: 21vh;
+            background-color: #D9D9D9;
+        }
+        main{
+            display: flex;
+        }
+        .one{
+            width: 19vw;
+            height: 58vh;
+            background-color: #817C7C;
+        }
+        .two{
+            width: 62vw;
+            height: 58vh;
+        }
+        .inside{
+            height: 29vh;
+        }
+        .three{
+            width: 19vw;
+            height: 58vh;
+            background-color: #B7AEAE;
+        }
+        footer{
+            height: 21vh;
+            background-color: #BDBDBD;
+        }
+        p, h2{
+            margin: 0;
+            font-family: "Cabin", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-variation-settings:
+                    "wdth" 100;
+        }
+        .text{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+<header class="text"><h2><b>Header</b></h2></header>
+
+<main>
+    <section class="one text"><p>News-1</p></section>
+    <section class="two">
+        <div class="inside text" style="background-color: #ABA8A8"><p>Content-1</p></div>
+        <div class="inside text" style="background-color: #878484"><p>Content-2</p></div>
+    </section>
+    <section class="three text"><p>Sponsor</p></section>
+</main>
+
+<footer class="text"><p>Footer</p></footer>
+</body>
+</html>

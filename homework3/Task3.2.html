@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Home3.2</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+        body{
+            margin: 0;
+        }
+        header{
+            height: 22vh;
+            background-color: #8D8484;
+        }
+        main{
+            display: flex;
+        }
+        .one, .two{
+            height: 56vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .one div{
+            width: 73vw;
+            height: 19vh;
+        }
+        .two div{
+            width: 27vw;
+            height: 28vh;
+        }
+        footer{
+            height: 22vh;
+            background-color: #BDBDBD;
+        }
+        div, header,footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        h2,p{
+            margin: 0;
+            font-family: "Noto Serif", serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-variation-settings:
+                    "wdth" 100;
+        }
+        p{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<header><h2>Header</h2></header>
+    <main>
+        <section class="one">
+            <div style="background-color: #776969"><p>Content - 1</p></div>
+            <div style="background-color: #643030"><p>Content - 2</p></div>
+            <div style="background-color: #441818"><p>Content - 3</p></div>
+        </section>
+        <section class="two">
+            <div style="background-color: #937575"><p>spam -1</p></div>
+            <div style="background-color: #644C4C"><p>spam -2</p></div>
+        </section>
+    </main>
+    <footer><h2>Footer</h2></footer>
+</body>
+</html>

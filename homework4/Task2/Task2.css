@@ -1,0 +1,91 @@
+
+body{
+    margin: 0;
+}
+main{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Onebox{
+    width: 20vw;
+    height: 50vh;
+    border: 1px solid rgba(83, 83, 83, 0.40);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Twobox{
+    margin: 4px;
+    border: 1px solid rgba(83, 83, 83, 0.40);
+    width: 20vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inst img{
+    width: 190px;
+    height: 75px;
+    margin: 20px;
+}
+input[type="email"],
+input[type="password"]{
+    margin: 3px;
+    width: 75%;
+    height: 30px;
+    border: 1px solid rgba(83, 83, 83, 0.40);
+    border-radius: 2px;
+    text-overflow: ellipsis;
+    padding: 5px;
+}
+button{
+    margin: 6px;
+    width: 77%;
+    height: 30px;
+    background-color: #87a9ff;
+    border: 1px;
+    border-radius: 6px;
+}
+.or{
+    color: gray;
+    margin: 5px;
+    font-size: 11px;
+    font-family: "Anton", sans-serif;
+}
+.facebook{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4px;
+}
+a{
+    text-decoration: none;
+    color: #115491;
+    font-family: "Anton", sans-serif;
+    font-size: 14px;
+}
+.facebook img{
+    width: 23px;
+    height: 23px;
+}
+.psnone{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.Twobox a{
+    color: #6095f6;
+}
+.twop{
+    font-family: "Anton", sans-serif;
+    font-size: 14px;
+}
+.Vhid{
+    color: white;
+}
+

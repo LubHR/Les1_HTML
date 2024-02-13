@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    margin: 0;
+}
+/*--------------Header-------------------*/
+header{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+}
+header>div{
+    height: 10vh;
+    width: 10vw;
+}
+.one{
+    background-color: #65856E;
+}
+.two{
+    background-color: #6095f6;
+}
+.three{
+    background-color: #441818;
+}
+.four{
+    background-color: #e72b2b;
+}
+.one, .two, .three, .four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*--------------Main-------------------*/
+main{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+section{
+    height: 40vh;
+    background-color: #FF8577;
+    display: flex;
+    justify-content: end;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    height: 40vh;
+    width: 100vw;
+}
+main>div>.one{
+    background-color: #11d0c0;
+    width: 50vw;
+    height: 20vh;
+    display: flex;
+    justify-content: end;
+}
+main>div>.two{
+    background-color: #0a332e;
+    width: 50vw;
+    height: 20vh;
+    display: flex;
+    justify-content: end;
+}
+main>div>.three{
+    background-color: #ce2f86;
+    width: 50vw;
+    height: 20vh;
+    display: flex;
+    justify-content: end;
+}
+main>div>.four{
+    background-color: #a8430b;
+    width: 50vw;
+    height: 20vh;
+    display: flex;
+    justify-content: end;
+}
+/*--------------Footer-------------------*/
+footer{
+    background-color: #FFC700;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+    margin: 0;
+}
+h1, a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+

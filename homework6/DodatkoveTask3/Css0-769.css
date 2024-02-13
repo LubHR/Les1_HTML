@@ -1,0 +1,54 @@
+@media screen and (max-width: 769px){
+    header{
+        display: flex;
+        flex-direction: column;
+        height: 24vh;
+    }
+    header>div{
+        width: 100vw;
+        height: 6vh;
+    }
+    main{
+        height: 70vh;
+        width: 100vw;
+    }
+    section{
+        height: 19vh;
+        width: 100vw;
+    }
+    .flex{
+        height: 56vh;
+        width: 100vw;
+    }
+    section{
+        justify-content: center;
+        align-items: center;
+    }
+    main>div>.one{
+        width: 100vw;
+        height: 14vh;
+        justify-content: center;
+        align-items: center;
+    }
+    main>div>.two{
+        width: 100vw;
+        height: 14vh;
+        justify-content: center;
+        align-items: center;
+    }
+    main>div>.three{
+        width: 100vw;
+        height: 14vh;
+        justify-content: center;
+        align-items: center;
+    }
+    main>div>.four{
+        width: 100vw;
+        height: 14vh;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        height: 6vh;
+    }
+}

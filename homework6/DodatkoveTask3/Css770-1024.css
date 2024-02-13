@@ -1,0 +1,33 @@
+@media screen and (min-width: 770px) and (max-width: 1024px){
+.flex{
+    flex-wrap: nowrap;
+}
+    main>div>.one{
+        width: 25vw;
+        height: 40vh;
+    }
+    main>div>.two{
+        width: 25vw;
+        height: 40vh;
+    }
+    main>div>.three{
+        width: 25vw;
+        height: 40vh;
+    }
+    main>div>.four{
+        width: 25vw;
+        height: 40vh;
+    }
+    main>div>.one>h1{
+        transform: rotate(270deg);
+    }
+    main>div>.two>h1{
+        transform: rotate(270deg);
+    }
+    main>div>.three>h1{
+        transform: rotate(270deg);
+    }
+    main>div>.four>h1{
+        transform: rotate(270deg);
+    }
+}

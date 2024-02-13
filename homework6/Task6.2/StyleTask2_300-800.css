@@ -1,0 +1,29 @@
+@media screen and (max-width: 800px){
+    header{
+        height: 20vh;
+    }
+    main{
+        height: 80vh;
+        flex-direction: column;
+    }
+    .one{
+        width: 100vw;
+        height: 60vh;
+    }
+    .up{
+        width: 100vw;
+        height: 30vh;
+    }
+    .downone, .downthree{
+        width: 33vw;
+        height: 30vh;
+    }
+    .downtwo{
+        height: 30vh;
+        width: 34vw;
+    }
+    .two{
+        width: 100vw;
+        height: 20vh;
+    }
+}
